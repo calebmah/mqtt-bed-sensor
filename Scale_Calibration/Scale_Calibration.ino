@@ -2,10 +2,10 @@
 
 HX711 scale;  // Initializes library functions.
 
-const int LOADCELL_DOUT_PIN = 2;          //Remember these are ESP GPIO pins, these might not be the pins labeled on the board.
-const int LOADCELL_SCK_PIN = 3;
+const int LOADCELL_DOUT_PIN = 16;          //Remember these are ESP GPIO pins, these might not be the pins labeled on the board.
+const int LOADCELL_SCK_PIN = 5;
 
-int calibration_factor = 2400; // Defines calibration factor we'll use for calibrating.
+int calibration_factor = 18000; // Defines calibration factor we'll use for calibrating.
 
 void setup()
 {
